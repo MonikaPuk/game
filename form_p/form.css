@@ -39,3 +39,95 @@ ul li {
   font-size: 16px;
   margin: 4%;
 }
+
+/* CSS for Mobile starts here*/
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+  #newForm {
+    margin-top: 3vh;
+    width: 90vw;
+    background-color: white;
+    margin-left: 5vw;
+  }
+  #newForm label {
+    font-size: 12px;
+  }
+  #newForm h3 {
+    font-size: 20px;
+  }
+  #newForm input {
+    width: 60vw;
+  }
+  ul li {
+    text-align: left;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+
+  ul li p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  #newForm #submit_btn {
+    height: 5vh;
+    width: 32vw;
+    background-color: #26a59a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4%;
+  }
+}
+/* CSS for Tablet starts here*/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  #newForm h3 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #newForm {
+    width: 100vw;
+    margin-top: 3vh;
+    width: 90vw;
+    background-color: white;
+    margin-left: 5vw;
+  }
+  #newForm label {
+    font-size: 12px;
+  }
+
+  #newForm input {
+    width: 50vw;
+  }
+  /* ul li {
+    text-align: left;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  } */
+
+  /* ul li p {
+    font-size: 24px;
+    margin: 0;
+  } */
+
+  /* #newForm #submit_btn {
+  height: 5vh;
+  width: 26vw;
+  background-color: #26a59a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4%;
+} */
+}
