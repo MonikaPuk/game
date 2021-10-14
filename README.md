@@ -1,5 +1,7 @@
 🎮 Web Browser game inspired by Game of Thrones 🎮
 
+Project created during studies "Multimedia Design and Communication" at KEA.
+
 In cooperation with company "Danske Spil" we created a game to attract new customers.
 
 Using the meme which went viral we decided to use it as marketing tool to bring more visits to the page.
